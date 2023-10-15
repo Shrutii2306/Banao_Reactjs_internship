@@ -1,0 +1,820 @@
+
+
+@media screen  and (max-width: 800px){
+
+  .App {
+    text-align: center;
+    justify-content: center;
+  
+    }
+  .navbar-div{
+    display: none;
+  }
+  .header-img-1{
+
+    display: none;
+  }
+  
+  .header-img-2{
+    
+    width: auto;
+  }
+
+  .header-image2{
+    
+    width: auto;
+    height: 20rem;
+  }
+  .header-image-div{
+  
+    z-index: 0;
+    position: relative;
+    opacity: 100%;
+  }
+
+  .header-overlay-text{
+
+    z-index:  1;
+    font-size: 1.5rem;
+    position: absolute;
+    margin-top: -8rem;
+    color:#FFFFFF;
+    font-weight: bold;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+  }
+  
+  .header-btn-div{
+
+    z-index: 2;
+    margin-top: -19rem;
+    margin-left: 23rem;
+    position: absolute;
+  }
+  .sub-head{
+  
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: start;
+  
+  }
+  
+  .sub-menu-div1{
+  
+   display: none;
+  }
+  .submenu2 a{
+
+    color: black;
+    font-weight: bold;
+  }
+
+  .filter-dropdown{
+
+    background-color: #b1aeae;
+    border-radius: 5px;
+
+  }
+
+  .content-div{
+
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:2rem;
+    padding: 0.5rem;
+  }
+  
+  
+  
+  .posts-div{
+  
+    width: auto;
+  }
+  
+  .side-search-div{
+  
+    border-bottom: 1px solid gainsboro;
+  padding-bottom: 0.5rem;
+  
+  }
+  
+  .side-content-div{
+  
+    display: none;
+    
+  }
+  
+  
+  .post-card{
+  
+    width: auto
+  }
+  
+  
+  .post_img{
+  
+    width: 29.8rem;
+  }
+  .title_img {
+  
+    height: 1.3rem;
+  }
+  
+  .card-body{
+  
+   align-content: start;
+  }
+  
+  .card-title{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  
+  .post_heading{
+  
+    text-align: start;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .post-description{
+  
+    text-align: start;
+    margin-top: 1rem;
+    color: #8A8A8A;
+  }
+  
+  .user_img{
+  
+    height:2rem;
+  }
+  
+  .share-btn{
+  
+    border: none;
+    padding-bottom: 0.4rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 2rem;
+  }
+  
+  .post-details{
+    display: flex;
+    font-weight: bold;;
+    font-size: 0.8rem;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .link-div{
+   font-weight:'bold';
+   border :1px solid rgb(210, 203, 203);
+   padding: 0.4rem;
+   border-radius: 2rem;
+   margin-top: 1rem;
+  }
+  
+  .post-container{
+  
+    margin-bottom: 1rem;
+  }
+  
+  
+  @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+  .seminor-login-modal-body .close{
+    position: relative;
+    top: -45px;
+    left: 10px;
+   color: #1cd8ad;
+   }
+   .seminor-login-modal-body .close{
+       opacity:0.75;
+   }
+   
+   .seminor-login-modal-body .close:focus, .seminor-login-modal-body .close:hover {
+       color: #39e8b0;
+    opacity: 1;
+    text-decoration: none;
+    outline:0;
+   }
+   
+   .seminor-login-modal .modal-dialog .modal-content{
+       border-radius:0px;
+   }
+   
+   /* form animation */
+   .seminor-login-form .form-group {
+     position: relative;
+     margin-bottom: 1.5em !important;
+   }
+   .seminor-login-form .form-control{
+    border: 0px solid #ced4da !important;
+    border-bottom:1px solid #adadad !important;
+    border-radius:0 !important;
+   }
+   .seminor-login-form .form-control:focus, .seminor-login-form .form-control:active{
+    outline:none !important;
+    outline-width: 0;
+    border-color: #adadad !important;
+    box-shadow: 0 0 0 0.2rem transparent;
+   }
+   *:focus {
+    outline: none;
+   }
+   .seminor-login-form{
+    padding: 2em 0 0;
+   }
+   
+   .form-control-placeholder {
+   position: absolute;
+   top: 0;
+   padding: 7px 0 0 13px;
+   transition: all 200ms;
+   opacity: 0.5;
+   border-top: 0px;
+   border-left: 0;
+   border-right: 0;
+   }
+   
+   .form-control:focus + .form-control-placeholder,
+   .form-control:valid + .form-control-placeholder {
+   font-size: 75%;
+   -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+   opacity: 1;
+   }
+   
+   .container-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+   }
+   .checkmark-box {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #adadad;
+   }
+   .container-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 1.1;
+   }
+   .container-checkbox input:checked ~ .checkmark-box:after {
+    color: #fff;
+   }
+   .container-checkbox input:checked ~ .checkmark-box:after {
+    display: block;
+   }
+   .container-checkbox .checkmark-box:after {
+    left: 10px;
+    top: 4px;
+    width: 7px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+   }
+   .checkmark:after, .checkmark-box:after {
+    content: "";
+    position: absolute;
+    display: none;
+   }
+   .container-checkbox input:checked ~ .checkmark-box {
+    background-color: #f58220;
+    border: 0px solid transparent;
+   }
+   .btn-check-log .btn-check-login {
+    font-size: 16px;
+    padding: 10px 0;
+   }
+   button.btn-check-login:hover {
+       color: #fff;
+       background-color: #f58220;
+       border: 2px solid #f58220;
+   }
+   .btn-check-login {
+    color: #f58220;
+    background-color: transparent;
+    border: 2px solid #f58220;
+    transition: all ease-in-out .3s;
+   }
+   .btn-check-login {
+    display: inline-block;
+    padding: 12px 0;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 0;
+    width: 100%;
+   }
+   .forgot-pass-fau a {
+       text-decoration: none !important;
+       font-size: 14px;
+   }
+   .text-primary-fau {
+       color: #1959a2;
+   }
+   
+   .select-form-control-placeholder{
+     font-size: 100%;
+       padding: 7px 0 0 13px;
+       margin: 0;
+   }
+   
+  .modal
+  {
+    overflow-y: scroll;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (min-width: 800px){.App {
+  text-align: center;
+  justify-content: center;
+
+  }
+
+.navbar-div{
+
+  margin: auto;
+   width: 85%;
+  align-self: center;;
+}
+
+.logo {
+
+  height: 1rem;
+  width:1rem;
+  margin-top: -0.3rem;
+}
+
+.brand-part1{
+
+  color: #27A365;
+
+}
+
+
+.navbar-css{
+
+  justify-content: space-between;
+}
+
+.searchbar{
+
+  width: 40rem;
+  border-radius: 3rem;
+  background-color: #F2F2F2;
+  border: none;
+  ;
+}
+
+.search-icon{
+
+  border: none;
+  border-radius: 0;
+  background-color: #F2F2F2;
+  border-bottom-left-radius: 3rem;
+  border-top-left-radius: 3rem;
+}
+
+.search-div{
+  margin-top: 1rem ;
+  width: 22rem;
+
+}
+
+.navbar-div a {
+  color: black;
+}
+.create-account-link{
+
+  color: #2F6CE5;
+}
+
+.header-image{
+
+  width: auto;
+  height: 30rem;
+}
+
+.header-img-2{
+  display: none;
+}
+.header-image-div{
+
+  z-index: 0;
+  position: relative;
+  opacity: 100%;
+}
+
+.header-overlay-text{
+
+  z-index:  1;
+  font-size: 2rem;
+  position: absolute;
+  margin-top: -10rem;
+  color:#FFFFFF;
+  font-weight: bold;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15rem;
+}
+
+.sub-head{
+
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: start;
+
+}
+
+.sub-menu-div1{
+
+  width: 72%;
+  margin: auto;
+  display: flex;
+}
+.sub-menu-div2{
+
+  display: none;
+}
+.join-grp-icon{
+
+  height: 1rem;
+}
+
+.join-grp-btn{
+
+  float: right;
+}
+
+.container-fluid{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.active{
+
+  color: black !important;
+}
+
+.nav-link{
+
+  color: #8A8A8A;
+  ;
+}
+
+.post-dropdown{
+
+  background-color: rgb(224, 218, 218);
+  border-radius: 4px;
+  margin-right: 3rem;
+}
+
+.dropdown a{
+  
+  color : black;
+}
+
+.content-div{
+
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top:2rem;
+  padding: 0.5rem;
+}
+
+
+
+.posts-div{
+
+  width: 63%;
+}
+
+.side-search-div{
+
+  border-bottom: 1px solid gainsboro;
+padding-bottom: 0.5rem;
+
+}
+
+.side-content-div{
+
+  width: 25%;
+  
+}
+
+.location-input{
+
+  border: none;
+  
+}
+
+.warning-div{
+
+  color: rgb(187, 179, 179);
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.post-card{
+
+  width: auto
+}
+
+
+.post_img{
+
+  width: auto;
+}
+.title_img {
+
+  height: 1.3rem;
+}
+
+.card-body{
+
+ align-content: start;
+}
+
+.card-title{
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.post_heading{
+
+  text-align: start;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-description{
+
+  text-align: start;
+  margin-top: 1rem;
+  color: #8A8A8A;
+}
+
+.user_img{
+
+  height:2rem;
+}
+
+.share-btn{
+
+  border: none;
+  padding-bottom: 0.4rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 2rem;
+}
+
+.post-details{
+  display: flex;
+  font-weight: bold;;
+  font-size: 0.8rem;
+  width: 60%;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.link-div{
+ font-weight:'bold';
+ border :1px solid rgb(210, 203, 203);
+ padding: 0.4rem;
+ border-radius: 2rem;
+ margin-top: 1rem;
+}
+
+.post-container{
+
+  margin-bottom: 1rem;
+}
+
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.seminor-login-modal-body .close{
+  position: relative;
+  top: -45px;
+  left: 10px;
+ color: #1cd8ad;
+ }
+ .seminor-login-modal-body .close{
+     opacity:0.75;
+ }
+ 
+ .seminor-login-modal-body .close:focus, .seminor-login-modal-body .close:hover {
+     color: #39e8b0;
+  opacity: 1;
+  text-decoration: none;
+  outline:0;
+ }
+ 
+ .seminor-login-modal .modal-dialog .modal-content{
+     border-radius:0px;
+ }
+ 
+ /* form animation */
+ .seminor-login-form .form-group {
+   position: relative;
+   margin-bottom: 1.5em !important;
+ }
+ .seminor-login-form .form-control{
+  border: 0px solid #ced4da !important;
+  border-bottom:1px solid #adadad !important;
+  border-radius:0 !important;
+ }
+ .seminor-login-form .form-control:focus, .seminor-login-form .form-control:active{
+  outline:none !important;
+  outline-width: 0;
+  border-color: #adadad !important;
+  box-shadow: 0 0 0 0.2rem transparent;
+ }
+ *:focus {
+  outline: none;
+ }
+ .seminor-login-form{
+  padding: 2em 0 0;
+ }
+ 
+ .form-control-placeholder {
+ position: absolute;
+ top: 0;
+ padding: 7px 0 0 13px;
+ transition: all 200ms;
+ opacity: 0.5;
+ border-top: 0px;
+ border-left: 0;
+ border-right: 0;
+ }
+ 
+ .form-control:focus + .form-control-placeholder,
+ .form-control:valid + .form-control-placeholder {
+ font-size: 75%;
+ -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+ opacity: 1;
+ }
+ 
+ .container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+ }
+ .checkmark-box {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #adadad;
+ }
+ .container-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1.1;
+ }
+ .container-checkbox input:checked ~ .checkmark-box:after {
+  color: #fff;
+ }
+ .container-checkbox input:checked ~ .checkmark-box:after {
+  display: block;
+ }
+ .container-checkbox .checkmark-box:after {
+  left: 10px;
+  top: 4px;
+  width: 7px;
+  height: 15px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+ }
+ .checkmark:after, .checkmark-box:after {
+  content: "";
+  position: absolute;
+  display: none;
+ }
+ .container-checkbox input:checked ~ .checkmark-box {
+  background-color: #f58220;
+  border: 0px solid transparent;
+ }
+ .btn-check-log .btn-check-login {
+  font-size: 16px;
+  padding: 10px 0;
+ }
+ button.btn-check-login:hover {
+     color: #fff;
+     background-color: #f58220;
+     border: 2px solid #f58220;
+ }
+ .btn-check-login {
+  color: #f58220;
+  background-color: transparent;
+  border: 2px solid #f58220;
+  transition: all ease-in-out .3s;
+ }
+ .btn-check-login {
+  display: inline-block;
+  padding: 12px 0;
+  margin-bottom: 0;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border-radius: 0;
+  width: 100%;
+ }
+ .forgot-pass-fau a {
+     text-decoration: none !important;
+     font-size: 14px;
+ }
+ .text-primary-fau {
+     color: #1959a2;
+ }
+ 
+ .select-form-control-placeholder{
+   font-size: 100%;
+     padding: 7px 0 0 13px;
+     margin: 0;
+ }
+ 
+.modal
+{
+  overflow-y: scroll;
+}}
